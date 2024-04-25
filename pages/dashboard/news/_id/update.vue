@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import UpdateNews from "@/components/dashboard/News/update.vue";
+import UpdateNews from "~/components/dashboard/News/update.vue";
 
 export default {
   components: {

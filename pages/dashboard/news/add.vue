@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import AddNews from "@/components/dashboard/News/add.vue";
+import AddNews from "~/components/dashboard/News/add.vue";
 
 export default {
   components: {
