@@ -1,0 +1,174 @@
+{
+  "Navbar": {
+    "Home": "الرئيسية",
+    "Services": "الخدمات",
+    "Projects": "المشاريع",
+    "Gallery": "المعرض",
+    "News": "الأخبار",
+    "Jobs": "الوظائف",
+    "Messages": "الرسائل",
+    "About Us": "عن الشركة",
+    "Contact Us": "تواصل معنا",
+    "Login": "تسجيل الدخول"
+  },
+  "Header": {
+    "Road to": "الطريق إلي",
+    "Success": "النجاح",
+    "and achieve ideas" : "و تحقيق الأفكار",
+    "description": "نحن نقدم حلولاً تكنولوجية إبداعية وتنافسية لتزويد الأسواق الدولية والإقليمية بتقنيات حديثة عالية الجودة. ",
+    "Explore services": "إستكشاف الخدمات"
+  },
+  "About Us": {
+    "About us": "عن الشركة",
+    "About us description": "نشأة نماء عام 2004 كانت على شكل كيان سعودي يقوم على تقديم خدمات تقنية المعلومات سواء على شكل خدمات أو منتجات وتقديمها لجميع أنواع الشركات المختلفة (الصغيرة والمتوسطة والكبيرة). نخبة من الخبراء المميزين والمتميزين الذين لديهم المزيد من الخبرة في مجال تكنولوجيا المعلومات والاتصالات زادوا على عشرين عاما من تأسيس عالم من التطور ليكون قبلة الحياة لمختلف الشركات في تأسيس علاقة قوية مع تكنولوجيا المعلومات",
+    "Company profile": "الملف التعريفي للشركة",
+    "Company regulations": "لائحة الشركة",
+    "Company profile description": "وصف ملف الشركة",
+    "Back to previous page": "العودة إلي الصفحة السابقة",
+    "The beginning of namaa company": "بداية شركة نماء",
+    "Our Vision": "رؤيتنا",
+    "Our Message": "رسالتنا",
+
+    "Why Namaa Company": "لماذا شركة نماء",
+    "namaa company description": "تلتزم عالم نماء بتقديم خدمات وحلول ومنتجات عالية الجودة لعملائها. ومن خلال تلبية متطلباتهم، بدلاً من تقديم خدمات أخرى، تلتزم نماء بإرضاء جميع عملائها.",
+    "High Quality": "جودة عالية",
+    "High Quality Description": "تشكل الجودة أحد المكونات الرئيسية التي تبرز اهتمامنا بعملائنا",
+    "Continuous Development": "التطوير المستمر",
+    "Continuous Development Description": "تشكل الجودة أحد المكونات الرئيسية التي تبرز اهتمامنا بعملائنا",
+    "Satisfying": "رضاء العميل",
+    "Satisfying Description": "تشكل الجودة أحد المكونات الرئيسية التي تبرز اهتمامنا بعملائنا",
+    "Our objectives": "أهدافنا",
+    "Our objectives description": "تتميز نماء بتقديم مجموعة واسعة من الخدمات المختلفة والمتنوعة التي تهدف إلى تحقيق معادلة الشركات وارتباط علاقاتها بتكنولوجيا المعلومات",
+
+    "Certificates for Namaa": "شهادات لنماء",
+    "Cetrificate for Namaa description": "تلتزم عالم نماء بتقديم خدمات وحلول ومنتجات عالية الجودة لعملائها.\n           من خلال تلبية متطلباتهم، بدلاً من تقديم خدمات أخرى، نماء\n           تلتزم لتلبية رضا جميع عملائها."
+  },
+  "Services": {
+    "Services": "الخدمات",
+    "Services description": "تتميز شركة نماء بتقديم العديد من الخدمات المتنوعة التي تهدف إلى تحقيق\n             معادلة ربط المنشآت وعلاقتها بتكنولوجيا المعلومات",
+    "Back to previous page": "العودة إلي الصفحة السابقة",
+    "We provide you with various services to help you": "نحن نقدم لك خدمات متنوعة لمساعدتك",
+    "description": "مهمتنا هي تقديم خدمات متميزة وفعالة لعملائنا. لدينا مجموعة من خبراء الشبكات لخدمتك على مدار الساعة لضمان إتمام كل مشروع بنجاح",
+    "Our Services": "خدماتنا"
+  },
+  "Projects": {
+    "Projects": "المشاريع",
+    "Back to previous page": "العودة إلي الصفحة السابقة",
+    "Project Description": "تستهدف شركة نماء جميع قطاعات أعمال العملاء؛ الحكومة والدفاع والخدمات المصرفية والتعليم والرعاية الصحية والطاقة والبناء والنقل والطيران وغيرها.",
+    "Project Date": "تاريخ المشروع",
+    "Project Type": "نوع المشروع",
+    "Project Client": "العميل",
+    "Namaa Company projects": "مشاريع شركة نماء",
+    "description": "تستهدف شركة نماء جميع قطاعات أعمال العملاء؛ الحكومة والدفاع والخدمات المصرفية والتعليم والرعاية الصحية والطاقة والبناء والنقل والطيران وغيرها."
+  },
+  "News": {
+    "News": "أخبار",
+    "Back to previous page": "العودة إلي الصفحة السابقة",
+    "News description" : "آخر أخبار شركة نماء",
+    "View More": "عرض المزيد",
+    "The latest news of namaa company": "اخر اخبار شركة نماء",
+    "All news for company related of technical and software": "كل الأخبار الخاصة بالشركة المتعلقة بالتقنية والبرمجيات",
+    "Project Tags": "علامات المشروع",
+    "Project Date": "تاريخ المشروع",
+    "min read": "مُنذ دقائق"
+  },
+  "Steps": {
+    "We provide you with various services to help you": "نحن نقدم لك خدمات متنوعة لمساعدتك",
+    "description": "مهمتنا هي تقديم خدمات متميزة وفعالة لعملائنا. لدينا مجموعة من خبراء الشبكات لخدمتك على مدار الساعة لضمان إتمام كل مشروع بنجاح",
+    "Search and content writing": "البحث وكتابة المحتوى",
+    "Namaa World abides to provide high-quality services, solutions and products to its clients": "تلتزم عالم نماء بتقديم خدمات وحلول ومنتجات عالية الجودة لعملائها",
+    "Objectives and benchmarks identification": "تحديد الأهداف والمعايير",
+    "Namaa World abides to provide high-quality services, solutions and products to its clients 2": "تلتزم عالم نماء بتقديم خدمات وحلول ومنتجات عالية الجودة لعملائها",
+    "Designing and developing": "تصميم وتطوير",
+    "Namaa World abides to provide high-quality services, solutions and products to its clients 3": "تلتزم عالم نماء بتقديم خدمات وحلول ومنتجات عالية الجودة لعملائها",
+    "Project testing and deployment": "اختبار المشروع ونشره",
+    "Namaa World abides to provide high-quality services, solutions and products to its clients 4": "تلتزم عالم نماء بتقديم خدمات وحلول ومنتجات عالية الجودة لعملائها"
+  },
+  "Customers": {
+    "Why customers love": "لماذا يحب العملاء",
+    "working with us": "العمل معنا"
+  },
+  "Gallery": {
+    "Gallery": "معرض الصور",
+    "Back to previous page": "العودة إلي الصفحة السابقة",
+    "Photo and video gallery": "معرض الصور والفيديو",
+    "description": "تتميز شركة نماء بتقديم العديد من الخدمات المتنوعة التي تهدف إلى تحقيق معادلة ربط المنشآت وعلاقتها بتكنولوجيا المعلومات"
+  },
+  "Jobs": {
+    "Jobs": "الوظائف",
+    "Back to previous page": "العودة إلي الصفحة السابقة",
+    "Join our creative team": "انضم إلى فريقنا الإبداعي",
+    "description": "تتميز شركة نماء بتقديم العديد من الخدمات المتنوعة التي تهدف إلى تحقيق معادلة ربط المنشآت وعلاقتها بتكنولوجيا المعلومات",
+    "Apply": "تقديم"
+  },
+  "Message": {
+    "Back to previous page": "العودة إلي الصفحة السابقة",
+    "Namaa company always with you": "شركة نماء معك دائما!",
+    "description": "شركة نماء تقدم لك حلولاً عملية ومتطورة متنوعة تساعدك على الوصول إلى النجاح، لا تتردد واستمر معنا الآن",
+    "OUR BOARD": "مجلس الإدارة",
+    "Board description": "تتميز شركة نماء بتقديم العديد من الخدمات المتنوعة التي تهدف إلى تحقيق\n             معادلة ربط المنشآت وعلاقتها بتكنولوجيا المعلومات"
+  },
+  "Contact Us": {
+    "Contact Us": "تواصل معنا",
+    "Back to previous page": "العودة إلي الصفحة السابقة",
+    "Namaa company always with you": "شركة نماء معك دائما!",
+    "Namaa company always with you description": "شركة نماء تقدم لك حلولاً عملية ومتطورة متنوعة تساعدك على الوصول إلى النجاح، لا تتردد واستمر معنا الآن",
+
+    "Contact Us Title": "معلومات الاتصال",
+    "Say something to start a live chat": "قل شيئًا لبدء محادثة مباشرة!",
+    "Phone": "هاتف",
+    "Fax": "فاكس",
+    "Email": "بريد إلكتروني",
+    "POBox": "صندوق بريد",
+    "Location": "موقع",
+    "Location address": "الموقع 2793، الرياض 6327 الأمير عبد العزيز بن مساعد بن جلوي (الضباب)",
+
+    "First Name": "الاسم الأول",
+    "Last Name": "اسم العائلة",
+    "Phone Number": "رقم التليفون",
+    "Select Subject": "حدد الموضوع ?",
+    "complaint": "شكوى",
+    "suggesion": "اقتراح",
+    "inquiry": "استفسار",
+    "Message": "رسالة",
+    "this field is required": "هذه الخانة مطلوبه",
+
+    "Send Message": "أرسل رسالة"
+  },
+  "Login": {
+    "LOGIN TO THE DASHBOARD": "تسجيل الدخول إلى لوحة القيادة",
+    "Phone": "رقم الجوال",
+    "Password": "كلمة المرور",
+    "Login": "تسجيل الدخول",
+    "this field is required": "هذه الخانة مطلوبه",
+    "Enter your email address": "أدخل عنوان بريدك الالكتروني .."
+  },
+  "Footer": {
+    "description": "عالم من التطور، ما يميزنا هو أننا نأخذ الوقت الكافي للتأكد من أن الخدمات التي نقدمها لعملائنا تلبي احتياجاتهم الخاصة بشكل جيد، وبالإضافة إلى ذلك، قمنا بتقسيم الخدمات التي نقدمها بحيث يتم تسليمها كمشاريع فردية أو مشاريع متعددة طالما أنها توفر الحلول المطلوبة",
+
+    "About Namaa": "عن نماء",
+    "Services": "خدمات",
+    "Stay in the loop": "ابق على اطلاع",
+    "copyright": "حقوق النشر محفوظة © 2024 نماء",
+
+    "Home": "الرئيسية",
+    "Projects": "المشاريع",
+    "Gallery": "المعرض",
+    "Contact us": "تواصل معنا",
+    "About us": "عن الشركة",
+    "Jobs": "الوظائف",
+    "News": "الأخبار",
+    "Send": "إرسال",
+    "Join": "انضم إلى قائمتنا البريدية للبقاء على اطلاع بأحدث إصدارات الميزات لدينا، وإسقاطات NFT، والنصائح والحيل للتنقل."
+  },
+  "Partners": {
+    "Go To Website": "انتقل إلى الموقع",
+    "No Link Found": "لم يتم العثور على رابط",
+    "partner": "شريك",
+    "certificate": "شهادة"
+  },
+  "CompanyInfo": {
+    "About Company": "عن الشركة",
+    "Company Links": "روابط التواصل"
+  }
+}

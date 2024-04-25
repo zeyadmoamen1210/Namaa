@@ -1,0 +1,19 @@
+
+@font-face {
+  font-family: "Cairo-Regular";
+  src: url("@/assets/font/Cairo/Cairo-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Cairo-SemiBold";
+  src: url("@/assets/font/Cairo/Cairo-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Cairo-Bold";
+  src: url("@/assets/font/Cairo/Cairo-Bold.ttf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

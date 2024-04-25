@@ -1,0 +1,172 @@
+{
+  "Navbar": {
+    "Home": "Home",
+    "Services": "Services",
+    "Projects": "Projects",
+    "Gallery": "Gallery",
+    "News": "News",
+    "Jobs": "Jobs",
+    "Messages": "Messages",
+    "About Us": "About Us",
+    "Contact Us": "Contact Us",
+    "Login": "Login"
+  },
+  "Header": {
+    "Road to": "Road to",
+    "Success": "success",
+    "and achieve ideas" : "and achieve ideas",
+    "description": "We provide creative, competitive technological solutions to provide the international and regional markets with high-quality modernized technologies. ",
+    "Explore services": "Explore services"
+  },
+  "About Us": {
+    "About us": "About us",
+    "About us description": "The emergence of Nama in 2004 was in the form of a Saudi entity based on providing information technology services, whether in the form of services or products and providing them for all different types of companies (small, medium and large). A group of distinguished and distinguished experts who have more experience in the field of information and communications technology have increased than twenty Years of establishing a world of development to be the kiss of life for various companies in establishing a strong relationship with information technology",
+    "Company profile": "Company profile",
+    "Company regulations": "Company regulations",
+    "Company profile description": "Company profile description",
+    "Back to previous page": "Back to previous page",
+    "The beginning of namaa company": "The beginning of namaa company",
+    "Our Vision": "Our Vision",
+    "Our Message": "Our Message",
+    "Why Namaa Company": "Why Namaa Company",
+    "namaa company description": "Namaa World abides to provide high-quality services, solutions and products to its clients. Through fulfillment of their requirements, rather than provision of other services, Namaa abides to meets satisfaction of all of its clients.",
+    "High Quality": "High Quality",
+    "High Quality Description": "Quality comprise one of the key components flagging our care for our customers",
+    "Continuous Development": "Continuous Development",
+    "Continuous Development Description": "Quality comprise one of the key components flagging our care for our customers",
+    "Satisfying": "Satisfying",
+    "Satisfying Description": "Quality comprise one of the key components flagging our care for our customers",
+    "Our objectives": "Our objectives",
+    "Our objectives description": "Namaa is distinguished with provision of a wide array of various and diverse services that target fulfillment of the equation of corporate and their relations linkage to information technology",
+
+    "Certificates for Namaa": "Certificates for Namaa",
+    "Cetrificate for Namaa description": "Namaa World abides to provide high-quality services, solutions and products to its clients.\n          Through fulfillment of their requirements, rather than provision of other services, Namaa\n          abides to meets satisfaction of all of its clients."
+  },
+  "Services": {
+    "Services": "Services",
+    "Services description": "Namaa Company is distinguished by providing many different services that aim to achieve the\n            equation of linking establishments and their relationship with information technology",
+    "Back to previous page": "Back to previous page",
+    "We provide you with various services to help you": "We provide you with various services to help you",
+    "Our mission is to provide distinguished and effective services to our customers. We have a group of network experts to serve you around the clock to ensure that every project is successfully completed": "Our mission is to provide distinguished and effective services to our customers. We have a group of network experts to serve you around the clock to ensure that every project is successfully completed",
+    "Our Services": "Our Services"
+  },
+  "Steps": {
+    "We provide you with various services to help you": "We provide you with various services to help you",
+    "description": "Our mission is to provide distinguished and effective services to our customers. We have a group of network experts to serve you around the clock to ensure that every project is successfully completed",
+    "Search and content writing": "Search and content writing",
+    "Namaa World abides to provide high-quality services, solutions and products to its clients": "Namaa World abides to provide high-quality services, solutions and products to its clients",
+    "Objectives and benchmarks identification": "Objectives and benchmarks identification",
+    "Namaa World abides to provide high-quality services, solutions and products to its clients 2": "Namaa World abides to provide high-quality services, solutions and products to its clients",
+    "Designing and developing": "Designing and developing",
+    "Namaa World abides to provide high-quality services, solutions and products to its clients 3": "Namaa World abides to provide high-quality services, solutions and products to its clients 3",
+    "Project testing and deployment": "Project testing and deployment",
+    "Namaa World abides to provide high-quality services, solutions and products to its clients 4": "Namaa World abides to provide high-quality services, solutions and products to its clients 4"
+  },
+  "Projects": {
+    "Projects": "Projects",
+    "Back to previous page": "Back to previous page",
+    "Project Description": "Namaa Company targets all customer business sectors; Government, Defense, Banking, Education, Health Care, Energy, Construction, Transportation, Aviation, and others.",
+    "Project Date": "Project Date",
+    "Project Type": "Project Type",
+    "Project Client": "Project Client",
+    "Namaa Company projects": "Namaa Company projects",
+    "description": "Namaa Company targets all customer business sectors; Government, Defense, Banking, Education, Health Care, Energy, Construction, Transportation, Aviation, and others."
+  },
+  "News": {
+    "News": "News",
+    "Back to previous page": "Back to previous page",
+    "News description" : "The latest news of Namaa Company",
+    "View More": "View More",
+    "The latest news of namaa company": "The latest news of namaa company",
+    "All news for company related of technical and software": "All news for company related of technical and software",
+    "Project Tags": "Project Tags",
+    "Project Date": "Project Date",
+    "min read": "min read"
+  },
+  "Customers": {
+    "Why customers love": "Why customers love",
+    "working with us": "working with us"
+  },
+  "Gallery": {
+    "Gallery": "Gallery",
+    "Back to previous page": "Back to previous page",
+    "Photo and video gallery": "Photo and video gallery",
+    "description": "Namaa Company is distinguished by providing many different services that aim to achieve the equation of linking establishments and their relationship to information technology"
+  },
+  "Jobs": {
+    "Jobs": "Jobs",
+    "Back to previous page": "Back to previous page",
+    "Join our creative team": "Join our creative team",
+    "description": "Namaa company is distinguished by providing many different services that aim to achieve the equation \u2028of linking establishments and their relationship to information technology",
+    "Apply": "Apply"
+  },
+  "Message": {
+    "Back to previous page": "Back to previous page",
+    "Namaa company always with you": "Namaa company always with you!",
+    "description": "Namaa company offers you various practical and advanced solutions to help you reach success, do not hesitate and continue with us now",
+    "OUR BOARD": "OUR BOARD",
+    "Board description": "Namaa Company is distinguished by providing many different services that aim to achieve the\n            equation of linking establishments and their relationship with information technology"
+  },
+  "Contact Us": {
+    "Contact Us": "Contact Us",
+    "Back to previous page": "Back to previous page",
+    "Namaa company always with you": "Namaa company always with you!",
+    "Namaa company always with you description": "Namaa company offers you various practical and advanced solutions to help you reach success, do not hesitate and continue with us now",
+
+    "Contact Us Title": "Contact Information",
+    "Say something to start a live chat": "Say something to start a live chat!",
+    "Phone": "Phone",
+    "Fax": "Fax",
+    "Email": "Email",
+    "POBox": "POBox",
+    "Location": "Location",
+    "Location address": "2793, Riyadh 6327 Prince Abdulaziz bin Mosaed bin Galawy (Al Dhabab)",
+
+    "First Name": "First Name",
+    "Last Name": "Last Name",
+    "Phone Number": "Phone Number",
+    "Select Subject": "Select Subject ?",
+    "complaint": "complaint",
+    "suggesion": "suggesion",
+    "inquiry": "inquiry",
+    "Message": "Message",
+    "this field is required": "this field is required",
+
+    "Send Message": "Send Message"
+  },
+  "Login": {
+    "LOGIN TO THE DASHBOARD": "LOGIN TO THE DASHBOARD",
+    "Phone": "Phone",
+    "Password": "Password",
+    "Login": "Login",
+    "This field is required": "This field is required",
+    "Enter your email address": "Enter your email address.."
+  },
+  "Footer": {
+    "description": "A world of development, which distinguishes \u2028us is that we take enough time to ensure that \u2028the services we provide to our customers \u2028meet their own needs well, and in addition, \u2028we have divided the services that we provide\u2028 so that they are delivered as individual \u2028projects or multiple projects as long as \u2028they provide the required solutions",
+    "About Namaa": "About Namaa",
+    "Services": "Services",
+    "Stay in the loop": "Stay in the loop",
+    "copyright": "Copyright © 2024 NAMAA",
+
+    "Home": "Home",
+    "Projects": "Projects",
+    "Gallery": "Gallery",
+    "Contact us": "Contact us",
+    "About us": "About us",
+    "Jobs": "Jobs",
+    "News": "News",
+    "Send": "Send",
+    "Join": "Join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks for navigating ."
+  },
+  "Partners": {
+    "Go To Website": "Go To Website",
+    "No Link Found": "No Link Found",
+    "partner": "partner",
+    "certificate": "certificate"
+  },
+  "CompanyInfo": {
+    "About Company": "About Namma",
+    "Company Links": "Social Links"
+  }
+}
