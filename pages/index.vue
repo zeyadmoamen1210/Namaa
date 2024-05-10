@@ -38,3 +38,10 @@ export default {
   }
 }
 </script>
+
+<style>
+.el-loading-mask.is-fullscreen .el-loading-spinner .circular {
+  text-align: center !important;
+  margin: auto !important;
+}
+</style>

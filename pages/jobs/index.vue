@@ -4,7 +4,6 @@
     <JobCategories />
     <OurClients bgClass="bg-white" class="py-20" />
     <OurCustomers bgClass="bg-[#EAEAF1]" />
-
   </div>
 </template>
 <script setup>
