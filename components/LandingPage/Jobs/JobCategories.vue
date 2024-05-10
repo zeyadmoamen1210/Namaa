@@ -9,13 +9,7 @@
           {{$t('Jobs.description')}}
         </p>
         <div>
-          <JobCard />
-          <JobCard />
-          <JobCard />
-          <JobCard />
-          <JobCard />
-          <JobCard />
-          <JobCard />
+          <JobCard v-for="(job, index) in jobs" :key="index" :item="job" :to="`/jobs/${job._id}`" />
         </div>
       </div>
     </div>
@@ -24,10 +18,33 @@
 
 <script>
 import JobCard from "~/components/LandingPage/JobCard.vue";
+import {Loading} from "element-ui";
 
 export default {
   components: {
     JobCard
+  },
+  mounted() {
+    this.getJobs()
+  },
+  data() {
+    return {
+      jobs: []
+    }
+  },
+  methods: {
+    async getJobs() {
+      let loading = null;
+      try {
+        loading = Loading.service({ fullscreen: true, background: '#ffffffe6' });
+        const jobs = await this.$axios.get('/jobs');
+        this.jobs = jobs.data;
+      } finally {
+        this.$nextTick(() => {
+          loading.close();
+        });
+      }
+    }
   }
 }
 </script>

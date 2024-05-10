@@ -88,6 +88,12 @@ export default {
           icon: 'el-icon-picture-outline'
         },
         {
+          name: 'Jobs',
+          to: '/dashboard/jobs',
+          activePath: '/dashboard/jobs',
+          icon: 'el-icon-picture-outline'
+        },
+        {
           name: 'Contact Us',
           to: '/dashboard/contact-us',
           activePath: '/dashboard/contact-us',

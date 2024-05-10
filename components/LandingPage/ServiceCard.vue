@@ -1,7 +1,6 @@
 <template>
   <div>
     <div v-if="editable" class="mb-2">
-      <button class="bg-[#4f46e5] hover:bg-[#4f46e5ab] focus:outline-none text-white p-1 px-2 rounded-xl" @click.stop><i class="el-icon-edit"></i></button>
       <button class="bg-[#fa4848] hover:bg-[#fa4848a3] focus:outline-none text-white p-1 px-2 rounded-xl" @click.stop="openDelete()"><i class="el-icon-delete"></i></button>
     </div>
     <nuxt-link tag="a" :to="to" class="service-card" :dir="$i18n.locale === 'ar' ? 'rtl' : 'ltr'">

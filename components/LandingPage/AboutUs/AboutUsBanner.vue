@@ -6,7 +6,7 @@
           <i class="block mt-[3px] el-icon-back text-2xl"></i>
           <span class="block"> {{$t('About Us.Back to previous page')}} </span>
         </nuxt-link>
-        <h2 class="pt-12 text-white text-5xl font-bold leading-[1.5]">{{title}}</h2>
+        <h2 class="text-2xl md:text-3xl lg:text-5xl pt-12 text-white font-bold leading-[1.5]">{{title}}</h2>
       </div>
     </div>
   </div>
