@@ -25,25 +25,25 @@
             <nuxt-link to="/" >{{$t('Footer.Home')}}</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/">{{$t('Footer.Projects')}}</nuxt-link>
+            <nuxt-link to="/projects">{{$t('Footer.Projects')}}</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/">{{$t('Footer.Gallery')}}</nuxt-link>
+            <nuxt-link to="/gallery">{{$t('Footer.Gallery')}}</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/">{{$t('Footer.Services')}}</nuxt-link>
+            <nuxt-link to="/services">{{$t('Footer.Services')}}</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/">{{$t('Footer.Contact us')}}</nuxt-link>
+            <nuxt-link to="/contact-us">{{$t('Footer.Contact us')}}</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/">{{$t('Footer.About us')}}</nuxt-link>
+            <nuxt-link to="/about-us">{{$t('Footer.About us')}}</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/">{{$t('Footer.Jobs')}}</nuxt-link>
+            <nuxt-link to="/jobs">{{$t('Footer.Jobs')}}</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/">{{$t('Footer.News')}}</nuxt-link>
+            <nuxt-link to="/news">{{$t('Footer.News')}}</nuxt-link>
           </li>
         </ul>
       </div>
@@ -54,25 +54,25 @@
             <nuxt-link to="/" >{{$t('Footer.Home')}}</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/">{{$t('Footer.Projects')}}</nuxt-link>
+            <nuxt-link to="/projects">{{$t('Footer.Projects')}}</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/">{{$t('Footer.Gallery')}}</nuxt-link>
+            <nuxt-link to="/gallery">{{$t('Footer.Gallery')}}</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/">{{$t('Footer.Services')}}</nuxt-link>
+            <nuxt-link to="/services">{{$t('Footer.Services')}}</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/">{{$t('Footer.Contact us')}}</nuxt-link>
+            <nuxt-link to="/contact-us">{{$t('Footer.Contact us')}}</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/">{{$t('Footer.About us')}}</nuxt-link>
+            <nuxt-link to="/about-us">{{$t('Footer.About us')}}</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/">{{$t('Footer.Jobs')}}</nuxt-link>
+            <nuxt-link to="/jobs">{{$t('Footer.Jobs')}}</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/">{{$t('Footer.News')}}</nuxt-link>
+            <nuxt-link to="/news">{{$t('Footer.News')}}</nuxt-link>
           </li>
         </ul>
       </div>

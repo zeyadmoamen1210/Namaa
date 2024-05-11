@@ -17,18 +17,37 @@
           <nuxt-link exact-active-class="active-link" class="text-grey" tag="a" to="/contact-us">{{$t('Navbar.Contact Us')}}</nuxt-link>
         </ul>
         <div class="flex gap-x-[5px] items-center">
-          <img src="@/assets/imgs/langs.svg" alt="">
-          <button @click="$i18n.setLocale('en')" v-if="$i18n.locale === 'ar'">EN</button>
-          <button @click="$i18n.setLocale('ar')" v-if="$i18n.locale === 'en'">AR</button>
+          <div class="flex gap-x-[5px] items-center">
+            <img src="@/assets/imgs/langs.svg" alt="">
+            <button @click="$i18n.setLocale('en')" v-if="$i18n.locale === 'ar'">EN</button>
+            <button @click="$i18n.setLocale('ar')" v-if="$i18n.locale === 'en'">AR</button>
+          </div>
+          <div class="block lg:hidden">
+            <button @click="openMobileMenu = true" class="mt-[7px]">
+              <img class="w-[30px]" src="@/assets/imgs/burger-menu.svg" alt="">
+            </button>
+          </div>
         </div>
       </div>
     </div>
+
+
+    <MobileMenu v-if="openMobileMenu" @close="openMobileMenu = false" />
   </nav>
 </template>
 
 <script>
-export default {
+import MobileMenu from './MobileMenu.vue';
 
+export default {
+  components: {
+    MobileMenu
+  },
+  data() {
+    return {
+      openMobileMenu: false,
+    }
+  }
 }
 </script>
 
