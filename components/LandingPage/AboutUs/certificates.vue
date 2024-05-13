@@ -10,7 +10,7 @@
         </p>
       </div>
 
-      <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-[30px] px-10">
+      <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-[30px] md:px-10">
         <CertificateCard />
         <CertificateCard />
         <CertificateCard />

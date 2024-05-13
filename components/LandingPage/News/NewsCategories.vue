@@ -8,7 +8,7 @@
         <p class="text-grey font-normal max-w-[800px] mb-10">
           {{$t('News.All news for company related of technical and software')}}
         </p>
-        <div v-if="news.length > 0" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px] px-10">
+        <div v-if="news.length > 0" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px] md:px-10">
           <div v-for="item in news" :key="item._id">
             <NewsCard :to="`/news/${item._id}`" :editable="false" :item="item" @getNews="getNews" />
           </div>

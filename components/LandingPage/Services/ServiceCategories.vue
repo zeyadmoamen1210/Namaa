@@ -3,7 +3,7 @@
     <div class="container mx-auto">
       <div>
         <ServiceText />
-        <div v-if="services.length > 0" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px] px-10">
+        <div v-if="services.length > 0" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px] md:px-10">
           <div v-for="service in services" :key="service._id">
             <ServiceCard @getServices="getServices" :item="service" :to="`/services-list/${service._id}`" :editable="false" />
           </div>

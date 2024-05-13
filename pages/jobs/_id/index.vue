@@ -8,7 +8,7 @@
                   <h2 class="after:content-[' '] after:absolute after:top-[-10px]  after:h-[5px] after:bg-primary after:w-[70px] relative text-primary text-3xl font-bold py-2 pb-4 max-w-[550px]" :class="$i18n.locale === 'en' ? 'after:left-0' : 'after:right-0'">
                       {{$t('Jobs.apply for job')}}
                   </h2>
-                  <div class="px-20 pt-10">
+                  <div class="lg:px-20 pt-10">
                     <div>
                         <JobCard :preview="true" :item="job" />
                     </div>
@@ -33,7 +33,7 @@
 
                     </div>
 
-                    <div class="px-20 pt-3">
+                    <div class="lg:px-20 pt-3">
                       <el-form :model="jobApply" ref="jobApplyRef">
                         <div class="mb-3">
                           <h6 class="mb-2">Full Name</h6>
@@ -54,7 +54,7 @@
                           </el-form-item>
                         </div>
                         <div>
-                          <div class="flex items-center gap-4 justify-between relative">
+                          <div class="flex items-center gap-4 justify-between relative flex-wrap">
                             <h3 class="font-semibold"> Attach Your Resume</h3>
                             <div class="relative cursor-pointer bg-[#f6f6f6] text-[#2c2f73] font-semibold p-3 px-6 rounded-[20px] flex gap-2 items-center max-w-[200px] overflow-hidden text-nowrap text-ellipsis">
                               <input @change="setFile" type="file" class="absolute top-0 right-0 opacity-0 cursor-pointer">
