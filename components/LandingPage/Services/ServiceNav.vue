@@ -22,6 +22,6 @@ export default {
 
 <style lang="postcss">
 .active-service-link {
-  @apply bg-primary text-white after:absolute after:top-0  after:content-[''] after:border-[28px] rounded-tr-[2px] rounded-br-[2px] !important;
+  @apply bg-primary text-white after:absolute after:top-0  md:after:content-[''] md:after:border-[28px] rounded-tr-[2px] rounded-br-[2px] !important;
 }
 </style>

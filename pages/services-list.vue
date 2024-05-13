@@ -6,8 +6,8 @@
 
       <div class="p-4 px-7 bg-grey-light rounded-2xl">
         <h4 class="text-primary text-xl font-bold mb-4"> {{$t('Services.Our Services')}} </h4>
-        <div class="flex gap-[60px]">
-          <div class="min-w-[290px]">
+        <div class="flex gap-[60px] flex-col md:flex-row">
+          <div class="lg:min-w-[290px]">
             <ServiceNav :serviceLinks="services.map(e => {
       return {titleEn: e.title_EN , titleAr: e.title_AR , id: e._id}
     })" :key="$route.params.id" />

@@ -8,7 +8,7 @@
         <p class="text-grey font-normal max-w-[800px] mb-10">
           {{$t('Gallery.description')}}
         </p>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px] px-10">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px] md:px-10">
           <div v-for="(item, index) in gallery" :key="index">
             <GalleryCard @click.native="openGalleryImg(item)" :editable="false" :item="item" @getGallery="getGallery" />
           </div>

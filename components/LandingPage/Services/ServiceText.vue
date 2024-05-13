@@ -4,7 +4,7 @@
       {{$t('Services.We provide you with various services to help you')}}
     </h2>
     <p class="text-grey font-normal max-w-[800px] mb-10">
-      {{$t('Services.description')}}
+      {{$t('Services.Services description')}}
     </p>
   </div>
 </template>

@@ -8,7 +8,7 @@
         <p class="text-grey font-normal max-w-[800px] mb-10">
           {{$t('Projects.description')}}
         </p>
-        <div v-if="projects.length > 0" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px] px-10">
+        <div v-if="projects.length > 0" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px] md:px-10">
           <div v-for="project in projects" :key="project._id">
             <ProjectCard :to="`/projects/${project._id}`" :editable="false" :item="project" @getProjects="getProjects" />
           </div>
