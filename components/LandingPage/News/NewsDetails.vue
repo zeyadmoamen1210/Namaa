@@ -3,10 +3,10 @@
     <div class="container mx-auto">
       <div>
         <h2 v-if="$i18n.locale === 'en'" class="after:content-[' '] after:absolute after:top-[-10px]  after:h-[5px] after:bg-primary after:w-[70px] relative text-primary text-3xl font-bold py-2 pb-4 max-w-[550px]" :class="$i18n.locale === 'en' ? 'after:left-0' : 'after:right-0'">
-          We announce that <br/> ” {{ item.news_title_EN }} “
+          {{ item.news_title_EN }}
         </h2>
         <h2 v-else class="after:content-[' '] after:absolute after:top-[-10px]  after:h-[5px] after:bg-primary after:w-[70px] relative text-primary text-3xl font-bold py-2 pb-4 max-w-[750px] leading-[1.5]" :class="$i18n.locale === 'en' ? 'after:left-0' : 'after:right-0'">
-          نعلن ذلك <br/> ” {{ item.news_title_AR }} “
+          {{ item.news_title_AR }}
         </h2>
 
         <p class="text-grey font-normal max-w-[800px] mb-10">

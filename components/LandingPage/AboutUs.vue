@@ -50,14 +50,36 @@
 </template>
 
 <script>
+import {Loading} from "element-ui";
+
 export default {
+  data() {
+    return {
+      companyInfo: {}
+    }
+  },
+  mounted() {
+    this.getCompanyInfo();
+  },
   methods: {
-    downloadPDF(index) {
-      if(index === 1) {
-        window.open("/1a07a824d60678f8903bcd63f14d5dbe.pdf", '_blank');
+    async getCompanyInfo() {
+      let loading = null;
+      try {
+        loading = Loading.service({ fullscreen: true, background: '#ffffffe6' });
+        const companyInfo = await this.$axios.get(`/company_info`);
+        this.companyInfo = companyInfo.data;
+      } finally {
+        this.$nextTick(() => {
+          loading.close();
+        });
       }
-      if(index === 2) {
-        window.open("/475e4a63b6e6d589c7f1f9cb5d45d7f5.pdf", "_blank")
+    },
+    downloadPDF(index) {
+      if(index === 1 && this.companyInfo.companyProfile) {
+        window.open(this.companyInfo.companyProfile, '_blank');
+      }
+      if(index === 2 && this.companyInfo.companyRegulation) {
+        window.open(this.companyInfo.companyRegulation, "_blank")
       }
     }
   }

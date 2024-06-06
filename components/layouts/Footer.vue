@@ -50,29 +50,8 @@
       <div>
         <h4 class="font-bold text-lg mb-6">{{$t('Footer.Services')}}</h4>
         <ul class="leading-[1.8]">
-          <li>
-            <nuxt-link to="/" >{{$t('Footer.Home')}}</nuxt-link>
-          </li>
-          <li>
-            <nuxt-link to="/projects">{{$t('Footer.Projects')}}</nuxt-link>
-          </li>
-          <li>
-            <nuxt-link to="/gallery">{{$t('Footer.Gallery')}}</nuxt-link>
-          </li>
-          <li>
-            <nuxt-link to="/services">{{$t('Footer.Services')}}</nuxt-link>
-          </li>
-          <li>
-            <nuxt-link to="/contact-us">{{$t('Footer.Contact us')}}</nuxt-link>
-          </li>
-          <li>
-            <nuxt-link to="/about-us">{{$t('Footer.About us')}}</nuxt-link>
-          </li>
-          <li>
-            <nuxt-link to="/jobs">{{$t('Footer.Jobs')}}</nuxt-link>
-          </li>
-          <li>
-            <nuxt-link to="/news">{{$t('Footer.News')}}</nuxt-link>
+          <li v-for="(service, index) in services" :key="service._id" v-if="index < 8">
+            <nuxt-link :to="`/services-list/${service._id}`" >   {{ $i18n.locale === 'ar' ? service.title_AR : service.title_EN }} </nuxt-link>
           </li>
         </ul>
       </div>
@@ -106,13 +85,26 @@ export default {
   data() {
     return {
       newsletter: {},
-      companyInfo: {}
+      companyInfo: {},
+      services: [],
     }
   },
   mounted() {
     this.getCompanyInfo();
+    this.getServices();
   },
   methods: {
+    async getServices() {
+      try {
+        this.loading = true;
+        const services = await this.$axios.get('/services');
+        this.services = services.data;
+      } finally {
+        this.$nextTick(() => {
+          this.loading = false;
+        });
+      }
+    },
     openLink(type) {
       if(type === 'facebook') {
         window.open(this.companyInfo.facbok_link, '_blank')

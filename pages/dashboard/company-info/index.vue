@@ -20,6 +20,7 @@
       <div class="flex gap-3 items-center mb-5">
         <button :class="activeTab === 1 ? 'bg-primary text-[#fff]' : ''" class="px-3 py-2 rounded-lg text-sm" @click="activeTab = 1">{{$t('CompanyInfo.About Company')}}</button>
         <button :class="activeTab === 2 ? 'bg-primary text-[#fff]' : ''" class="px-3 py-2 rounded-lg text-sm" @click="activeTab = 2">{{$t('CompanyInfo.Company Links')}}</button>
+        <button :class="activeTab === 3 ? 'bg-primary text-[#fff]' : ''" class="px-3 py-2 rounded-lg text-sm" @click="activeTab = 3">{{$t('CompanyInfo.Company Files')}}</button>
       </div>
 
       <section v-if="activeTab == 1">
@@ -107,7 +108,7 @@
           </div>
         </div>
       </section>
-      <section v-else>
+      <section v-else-if="activeTab === 2">
         <div class="flex gap-3 items-center mb-4">
           <div class="w-[45px] rounded-full">
             <img class="block mx-auto w-[45px]" src="@/assets/imgs/insta-3.svg" alt="">
@@ -161,6 +162,22 @@
           </div>
         </div>
 
+      </section>
+      <section v-else>
+        <div class="flex gap-3 items-center mb-4">
+          <div>
+            Company Profile
+          </div>
+          <span v-if="companyInfo.companyProfile"> <a target="_blank" class="text-[#4f46e5] underline" :href="companyInfo.companyProfile">Click Here</a> </span>
+          <span v-else> Not Found </span>
+        </div>
+        <div class="flex gap-3 items-center mb-4">
+          <div>
+            Company Regulation
+          </div>
+          <span v-if="companyInfo.companyRegulation"> <a target="_blank" class="text-[#4f46e5] underline" :href="companyInfo.companyRegulation">Click Here</a> </span>
+          <span v-else> Not Found </span>
+        </div>
       </section>
     </div>
   </div>
