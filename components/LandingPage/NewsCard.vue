@@ -17,7 +17,6 @@
         </div>
         <div class="flex justify-between py-3 border-b-[1px] border-grey-light">
           <h6 class="text-grey"> {{ new Date(item.date).toLocaleDateString($i18n.locale === 'ar' ? 'ar-EG' : 'en-EN') }} </h6>
-          <h6 class="text-grey"> {{getDiffMinutes(item.last_seen, item.date)}} {{$t('News.min read')}} </h6>
         </div>
         <div>
           <h5 class="text-2xl font-semibold my-2 whitespace-nowrap	overflow-hidden text-ellipsis"> {{ $i18n.locale === 'ar' ? item.news_title_AR : item.news_title_EN }} </h5>

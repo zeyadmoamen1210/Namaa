@@ -5,6 +5,7 @@
       <div class="flex gap-3 items-center mb-5">
         <button :class="activeTab === 1 ? 'bg-primary text-[#fff]' : ''" class="px-3 py-2 rounded-lg text-sm" @click.prevent="activeTab = 1">About Company</button>
         <button :class="activeTab === 2 ? 'bg-primary text-[#fff]' : ''" class="px-3 py-2 rounded-lg text-sm" @click.prevent="activeTab = 2">Social Links</button>
+        <button :class="activeTab === 3 ? 'bg-primary text-[#fff]' : ''" class="px-3 py-2 rounded-lg text-sm" @click.prevent="activeTab = 3">Company Files</button>
       </div>
 
       <section v-if="activeTab === 1">
@@ -93,7 +94,7 @@
           </div>
         </div>
       </section>
-      <section v-else>
+      <section v-else-if="activeTab === 2">
         <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-x-[10px]">
           <el-form-item prop="emaile" :rules="[{required: true, message: 'This field is required'}]">
             <label for="emaile">Email</label>
@@ -164,6 +165,22 @@
         </div>
 
       </section>
+      <section v-else>
+        <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-x-[10px]">
+
+          <el-form-item prop="companyProfile" :rules="[{required: true, message: 'This field is required'}]">
+            <label for="companyProfile">Company Profile</label>
+            <el-input id="companyProfile" v-model="updateCompanyInfo.companyProfile"></el-input>
+          </el-form-item>
+
+          <el-form-item prop="companyRegulation" :rules="[{required: true, message: 'This field is required'}]">
+            <label for="companyRegulation">Company Regulation</label>
+            <el-input id="companyRegulation" v-model="updateCompanyInfo.companyRegulation"></el-input>
+          </el-form-item>
+
+        </div>
+
+      </section>
 
     </el-form>
     <div class="flex flex-row-reverse mt-3">
@@ -214,12 +231,14 @@ export default {
     updateTheCompanyInfo() {
       this.$refs.updateCompanyInfoRef.validate(async (valid) => {
         if(valid) {
-
           let loading = null;
-
           try {
             loading = Loading.service({ fullscreen: true, background: '#ffffffe6' });
-            await this.$axios.put(`/company_info/${this.$route.params.id}`, this.updateCompanyInfo);
+            if(this.activeTab === 3) {
+              await this.$axios.put(`/company_info/files`, {companyProfile: this.updateCompanyInfo.companyProfile, companyRegulation: this.updateCompanyInfo.companyRegulation});
+            } else {
+              await this.$axios.put(`/company_info/${this.$route.params.id}`, this.updateCompanyInfo);
+            }
             Notification.success({
               title: 'Success',
               message: 'The company info updated successfully',

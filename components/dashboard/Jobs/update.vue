@@ -122,7 +122,7 @@
       </div>
     </el-form>
     <div class="flex flex-row-reverse mt-3">
-      <button class="bg-[#4f46e5] hover:bg-[#4f46e5ab] focus:outline-none text-white p-2 rounded-xl" @click="addTheJob()">Add Job</button>
+      <button class="bg-[#4f46e5] hover:bg-[#4f46e5ab] focus:outline-none text-white p-2 rounded-xl" @click="updateTheJob()">Update Job</button>
     </div>
   </div>
 </template>
@@ -136,28 +136,13 @@ export default {
       jobTypes: [
         {keyEN: 'Full time', keyAR: 'وقت كامل', value: 'Full time'},
         {keyEN: 'Part time', keyAR: 'دوام جزئى', value: 'Part time'},
-        {keyEN: 'Contract', keyAR: 'عقد', value: 'Contract'},
-        {keyEN: 'Temporary', keyAR: 'مؤقت', value: 'Temporary'},
-        {keyEN: 'Seasonal', keyAR: 'موسمي', value: 'Seasonal'},
       ],
       updateJob: {
         descriptions: [
-          {
-            description_AR: '',
-            description_EN: ''
-          }
         ],
         jobLocationTags: [
-          {
-            jobLocationTags_AR: '',
-            jobLocationTags_EN: ''
-          }
         ],
         jobDepartmentTags: [
-          {
-            jobDepartmentTags_AR: '',
-            jobDepartmentTags_EN: ''
-          }
         ]
       }
     }
@@ -210,7 +195,7 @@ export default {
         });
       }
     },
-    addTheJob() {
+    updateTheJob() {
       this.$refs.updateJobRef.validate(async (valid) => {
         if(valid) {
           if(this.fileList.length === 0) {
@@ -257,7 +242,7 @@ export default {
             await this.$axios.put(`/jobs/${this.$route.params.id}`, formData);
             Notification.success({
               title: 'Success',
-              message: 'The Job added successfully',
+              message: 'The Job updated successfully',
             });
             this.$router.push('/dashboard/jobs');
             window.scrollTo({top: 0, behavior: 'smooth'})
