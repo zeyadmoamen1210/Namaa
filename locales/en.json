@@ -27,7 +27,7 @@
     "Back to previous page": "Back to previous page",
     "The beginning of namaa company": "The beginning of namaa company",
     "Our Vision": "Our Vision",
-    "Our Message": "Our Message",
+    "Our Message": "Our Mission",
     "Why Namaa Company": "Why Namaa Company",
     "namaa company description": "Namaa World abides to provide high-quality services, solutions and products to its clients. Through fulfillment of their requirements, rather than provision of other services, Namaa abides to meets satisfaction of all of its clients.",
     "High Quality": "High Quality",
@@ -172,5 +172,9 @@
     "About Company": "About Namma",
     "Company Links": "Social Links",
     "Company Files": "Company Files"
-  }
+  },
+  "QuotTitle": "Message of the Chairman",
+  "QuotParagraph": "In the name of God, and prayers and peace be upon the Messenger of God, as for what follows, we at Namaa World Company for Communications, Computers and Information Systems took our first steps while dreaming of achieving our goals and we expected that achieving them would take a lot of time and effort, but thanks to God, the plant grew rapidly and its fruits blossomed in a few years. This was due to the grace of God Almighty and the efforts of the company’s employees, which made it gain the trust of its customers quickly and distinctively. At Namaa World Company for Communications, Computers and Information Systems, we seek to align with the vision of our leadership in the Kingdom, represented by Vision 2030, and to participate in the path of digital transformation of services in all sectors in which we participate, based on our extensive professional experiences and relationships. In parallel with our technical work, we seek to continuously modernize our system, develop our services, and enhance our system of policies and procedures in a way that enhances our competitiveness and achieves the required sustainability.",
+  "CEOName": "Emad Khedr",
+  "CEOTitle": "CEO OF NAMAA"
 }
