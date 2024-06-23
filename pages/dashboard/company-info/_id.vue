@@ -9,6 +9,15 @@
       </div>
 
       <section v-if="activeTab === 1">
+        <el-form-item prop="messageFlag" :rules="[{required: true, message: 'This field is required'}]">
+          <div class="flex items-center gap-[10px]">
+            <label for="about_us_EN">Hide / Show CEO Section</label>
+            <el-switch
+              v-model="updateCompanyInfo.messageFlag"
+              >
+            </el-switch>
+          </div>
+        </el-form-item>
         <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-x-[10px]">
           <el-form-item prop="about_us_EN" :rules="[{required: true, message: 'This field is required'}]">
             <label for="about_us_EN">About Us In english</label>
@@ -238,6 +247,7 @@ export default {
               await this.$axios.put(`/company_info/files`, {companyProfile: this.updateCompanyInfo.companyProfile, companyRegulation: this.updateCompanyInfo.companyRegulation});
             } else {
               await this.$axios.put(`/company_info/${this.$route.params.id}`, this.updateCompanyInfo);
+              await this.$axios.put(`/company_info/flag-message`, {flag: this.updateCompanyInfo.messageFlag});
             }
             Notification.success({
               title: 'Success',

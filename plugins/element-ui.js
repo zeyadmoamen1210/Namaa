@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { Form, FormItem, Input, Checkbox, Select, Radio, RadioGroup , Upload, Notification, Dialog, DatePicker, Loading, Option, Table, TableColumn, Tag, Rate} from 'element-ui'
+import { Switch, Form, FormItem, Input, Checkbox, Select, Radio, RadioGroup , Upload, Notification, Dialog, DatePicker, Loading, Option, Table, TableColumn, Tag, Rate} from 'element-ui'
 import lang from 'element-ui/lib/locale/lang/en'
 import locale from 'element-ui/lib/locale';
 import 'element-ui/lib/theme-chalk/index.css';
@@ -11,6 +11,7 @@ locale.use(lang)
 
 // import components
 Vue.component(Form.name, Form)
+Vue.component(Switch.name, Switch)
 Vue.component(FormItem.name, FormItem)
 Vue.component(Input.name, Input)
 Vue.component(Checkbox.name, Checkbox)
