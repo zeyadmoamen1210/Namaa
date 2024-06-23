@@ -68,6 +68,7 @@ export default {
         loading = Loading.service({ fullscreen: true, background: '#ffffffe6' });
         const companyInfo = await this.$axios.get(`/company_info`);
         this.companyInfo = companyInfo.data;
+        this.$emit('companyInfo', this.companyInfo.messageFlag);
       } finally {
         this.$nextTick(() => {
           loading.close();

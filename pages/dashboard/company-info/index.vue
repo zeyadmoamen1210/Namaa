@@ -24,6 +24,14 @@
       </div>
 
       <section v-if="activeTab == 1">
+        <div class="flex items-center gap-[10px] mb-5">
+          <h3 class="font-semibold text-sm text-[#4f46e5]">Show / Hide CEO Section</h3>
+          <el-switch
+            v-model="companyInfo.messageFlag"
+            disabled
+            >
+          </el-switch>
+        </div>
         <div class="border border-grey-light p-4 mb-4">
           <div v-if="$i18n.locale === 'en'" class="mb-5 mt-5">
             <h3 class="font-semibold text-sm text-[#4f46e5]">About Us </h3>

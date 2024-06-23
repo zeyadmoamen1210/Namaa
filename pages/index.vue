@@ -2,11 +2,11 @@
   <div>
     <Header />
     <Sponser dir="ltr" />
-    <AboutUs />
+    <AboutUs @companyInfo="(e) => ourMessageFlag = e" />
     <OurServices />
     <OurProjects />
     <OurNews />
-    <OurQuot />
+    <OurQuot :show="ourMessageFlag" />
     <OurCustomers />
     <OurClients dir="ltr" />
   </div>
@@ -35,6 +35,11 @@ export default {
     AboutUs,
     Header,
     Sponser
+  },
+  data() {
+    return {
+      ourMessageFlag: true
+    }
   }
 }
 </script>

@@ -1,5 +1,6 @@
 <template>
   <div
+    v-if="companyInfo.messageFlag"
     class="relative after:content-[' '] after:absolute after:top-0 after:h-[100%] after:w-[100%] after:bg-cover after:bg-center after:opacity-10 after:bg-[url('@/assets/imgs/steps-img.png')] bg-cover bg-[0px] bg-primary"
   >
     <div class="container mx-auto p-10 py-20 relative z-[10]">
@@ -23,5 +24,20 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      companyInfo: {}
+    }
+  },
+  mounted() {
+    this.getCompanyInfo();
+  },
+  methods: {
+    async getCompanyInfo() {
+        const companyInfo = await this.$axios.get(`/company_info`);
+        this.companyInfo = companyInfo.data;
+    },
+  }
+};
 </script>
