@@ -94,6 +94,12 @@ export default {
           icon: 'el-icon-picture-outline'
         },
         {
+          name: 'Certificates',
+          to: '/dashboard/certificates',
+          activePath: '/dashboard/certificates',
+          icon: 'el-icon-picture-outline'
+        },
+        {
           name: 'Contact Us',
           to: '/dashboard/contact-us',
           activePath: '/dashboard/contact-us',

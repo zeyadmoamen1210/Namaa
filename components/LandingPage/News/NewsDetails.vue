@@ -40,7 +40,7 @@
 
       </div>
       <div>
-        <img class="object-cover w-full rounded-3xl" :src="item.image" alt="">
+        <img class="object-cover w-full rounded-3xl max-w-[500px]" :src="item.image" alt="">
       </div>
     </div>
   </div>
