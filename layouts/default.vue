@@ -11,7 +11,9 @@
           <div class="flex flex-col items-center mx-[30px] bg-[#2c2f73] p-2 rounded hover:translate-y-[-10px] cursor-pointer duration-500 ">
             <i class="max-w-[80px] el-icon-s-promotion text-[#fff]" ></i>
             <transition>
-              <h6 class="text-[#fff] text-sm font-semibold">Chat</h6>
+              <h6 class="text-[#fff] text-sm font-semibold">
+                {{ $i18n.locale === 'ar' ? 'المحادثة' : 'Chat' }}
+              </h6>
             </transition>
           </div>
         </div>

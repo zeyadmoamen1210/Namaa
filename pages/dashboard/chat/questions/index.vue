@@ -9,7 +9,7 @@
           <button @click="$i18n.setLocale('en')" v-if="$i18n.locale === 'ar'">EN</button>
           <button @click="$i18n.setLocale('ar')" v-if="$i18n.locale === 'en'">AR</button>
         </div>
-        <nuxt-link tag="button" class="bg-[#4f46e5] hover:bg-[#4f46e5ab] focus:outline-none text-white p-2 rounded-xl" @click.native="openAddQuestionPopup = true" to="#" >Add Questions</nuxt-link>
+        <nuxt-link v-if="questions.length < 3" tag="button" class="bg-[#4f46e5] hover:bg-[#4f46e5ab] focus:outline-none text-white p-2 rounded-xl" @click.native="checkOpenAddQuestion" to="#" >Add Questions</nuxt-link>
       </div>
     </div>
 
@@ -139,6 +139,16 @@ export default {
     }
   },
   methods: {
+    checkOpenAddQuestion() {
+      if(this.questions.length >= 3) {
+        Notification.error({
+          title: 'Error',
+          message: 'The Questions should be 3 at max',
+        });
+        return;
+      }
+      this.openAddQuestionPopup = true;
+    },
     async saveDeleteQuestion() {
       let loading = null;
       try {
