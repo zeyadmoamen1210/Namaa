@@ -1,5 +1,5 @@
 <template>
-  <div dir="ltr" v-loading="true" class="rounded-3xl bg-[#1B194F] overflow-hidden max-w-[290px] h-[350px] w-[90vw] fixed bottom-[40px] right-[40px] md:bottom-[70px] md:right-[70px] z-[99]">
+  <div dir="ltr" v-loading="loading" class="rounded-3xl bg-[#1B194F] overflow-hidden max-w-[290px] h-[350px] w-[90vw] fixed bottom-[40px] right-[40px] md:bottom-[70px] md:right-[70px] z-[99]">
 
    <div class="relative">
      <div class="p-[10px] bg-[#1B194F]">
