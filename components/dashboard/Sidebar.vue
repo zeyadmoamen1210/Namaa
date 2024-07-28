@@ -105,6 +105,12 @@ export default {
           activePath: '/dashboard/contact-us',
           icon: 'el-icon-chat-dot-square'
         },
+        {
+          name: 'Chat',
+          to: '/dashboard/chat',
+          activePath: '/dashboard/chat',
+          icon: 'el-icon-chat-dot-square'
+        },
       ]
     }
   }

@@ -1,7 +1,9 @@
 <template>
   <div>
     <h3 class="font-bold text-xl my-3"> <i class="el-icon-plus"></i> Add New Service</h3>
+
     <el-form :model="addService" ref="addServiceRef">
+
       <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-x-[10px]">
         <el-form-item prop="title_EN" :rules="[{required: true, message: 'This field is required'}]">
           <label for="title_EN">Title In english</label>
