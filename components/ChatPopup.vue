@@ -70,7 +70,7 @@
               <h6>{{ $i18n.locale === 'ar' ? 'الإسم' : 'Your Name' }}</h6>
               <el-input v-model="addConversation.name"></el-input>
             </el-form-item>
-            <el-form-item class="mb-[18px]" prop="sender" :rules="[{required: true, message: 'This is required'}]">
+            <el-form-item class="mb-[18px]" prop="sender" :rules="[{required: true, message: 'This is required'}, {type: 'email', message: 'This field should be valid email'}]">
               <h6>{{ $i18n.locale === 'ar' ? 'البريد الإلكتروني' : 'Your Email' }}</h6>
               <el-input v-model="addConversation.sender"></el-input>
             </el-form-item>
