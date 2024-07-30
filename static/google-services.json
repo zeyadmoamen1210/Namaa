@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "174066158898",
+    "project_id": "tamkin-app",
+    "storage_bucket": "tamkin-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174066158898:android:e9a21babfe122db88e9b2b",
+        "android_client_info": {
+          "package_name": "com.tamkin.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174066158898-srv9s4eb7m0q4aimscbgr8ejoo792f9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-FS1O9p894sLzKTZi4YyAJz9NL4ldzYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174066158898-srv9s4eb7m0q4aimscbgr8ejoo792f9a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "174066158898-v9dmufmi9gdna02b29pl0ahuik35l244.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tamkin.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
